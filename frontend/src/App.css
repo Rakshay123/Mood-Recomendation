@@ -1,0 +1,170 @@
+/* Global background */
+
+body{
+  margin:0;
+  padding:0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg,#0f0f0f,#1c1c1c);
+  color:white;
+}
+
+/* Main container */
+
+.app{
+  text-align:center;
+  padding:40px;
+}
+
+/* Heading */
+
+.app h1{
+  font-size:36px;
+  margin-bottom:30px;
+  letter-spacing:1px;
+}
+
+/* Input field */
+
+input{
+  padding:12px 15px;
+  width:280px;
+  border-radius:8px;
+  border:none;
+  outline:none;
+  font-size:16px;
+  margin-right:10px;
+  background:#1f1f1f;
+  color:white;
+  box-shadow:0 2px 6px rgba(0,0,0,0.4);
+}
+
+/* Button */
+
+button{
+  padding:12px 22px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:600;
+  background:linear-gradient(45deg,#ff416c,#ff4b2b);
+  color:white;
+  cursor:pointer;
+  transition:all 0.3s ease;
+}
+
+button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 5px 15px rgba(255,75,43,0.4);
+}
+
+/* Video grid */
+
+.video{
+  margin-top:40px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  gap:25px;
+  padding:20px;
+}
+
+/* Video frame */
+
+iframe{
+  width:100%;
+  height:220px;
+  border:none;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.6);
+  transition:transform 0.3s ease;
+}
+
+/* Hover effect */
+
+iframe:hover{
+  transform:scale(1.03);
+}
+/* Global background */
+
+body{
+  margin:0;
+  padding:0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg,#0f0f0f,#1c1c1c);
+  color:white;
+}
+
+/* Main container */
+
+.app{
+  text-align:center;
+  padding:40px;
+}
+
+/* Heading */
+
+.app h1{
+  font-size:36px;
+  margin-bottom:30px;
+  letter-spacing:1px;
+}
+
+/* Input field */
+
+input{
+  padding:12px 15px;
+  width:280px;
+  border-radius:8px;
+  border:none;
+  outline:none;
+  font-size:16px;
+  margin-right:10px;
+  background:#1f1f1f;
+  color:white;
+  box-shadow:0 2px 6px rgba(0,0,0,0.4);
+}
+
+/* Button */
+
+button{
+  padding:12px 22px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:600;
+  background:linear-gradient(45deg,#ff416c,#ff4b2b);
+  color:white;
+  cursor:pointer;
+  transition:all 0.3s ease;
+}
+
+button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 5px 15px rgba(255,75,43,0.4);
+}
+
+/* Video grid */
+
+.video{
+  margin-top:40px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  gap:25px;
+  padding:20px;
+}
+
+/* Video frame */
+
+iframe{
+  width:100%;
+  height:220px;
+  border:none;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.6);
+  transition:transform 0.3s ease;
+}
+
+/* Hover effect */
+
+iframe:hover{
+  transform:scale(1.03);
+}
